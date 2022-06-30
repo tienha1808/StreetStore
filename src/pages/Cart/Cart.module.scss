@@ -1,0 +1,10 @@
+.reback {
+    background-color: var(--second-color);
+    color: #000;
+    transition: ease 0.3s;
+}
+
+.reback:hover {
+    background-color: var(--primary-color);
+    color: #fff
+}

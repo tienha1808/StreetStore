@@ -1,0 +1,17 @@
+.input {
+    width: 7rem;
+    height: 4rem;
+    padding: 0.5rem 2.2rem 0.5rem 10px;
+}
+
+.button {
+    height: 50px;
+    color: #fff;
+    background-color: var(--second-color);
+    transition: linear 0.3s;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+}

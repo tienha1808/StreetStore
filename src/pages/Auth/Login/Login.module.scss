@@ -1,0 +1,11 @@
+.btn {
+    background-color: var(--second-color);
+    color: #333;
+    transition: ease 0.3s;
+    letter-spacing: 1.5px;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+.wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    z-index: -1;
+    opacity: 0;
+}
+
+.positionZ {
+    z-index: 10;
+    opacity: 1;
+}
+
+.btnClose {
+    color: var(--primary-color);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    transition: ease 0.3s;
+}
+
+.btnClose:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btnRegister {
+    background-color: var(--second-color);
+    letter-spacing: 1.3px;
+    color: #333;
+}
+
+.btnRegister:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}

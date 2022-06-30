@@ -1,0 +1,37 @@
+.delBtn {
+    width: 5%;
+}
+
+.iconDel {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: ease 0.3s;
+}
+
+.iconDel:hover {
+    background-color: var(--second-color)
+}
+
+.img {
+    width: 15%
+}
+
+.product {
+    width: 25%;
+    padding-right: 3.5rem;
+}
+
+.price {
+    width: 15%
+}
+
+.quantity {
+    width: auto;
+    text-align: center;
+}
+
+.subtotal {
+    width: 30%;
+    text-align: center;
+}

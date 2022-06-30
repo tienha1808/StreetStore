@@ -1,0 +1,15 @@
+.btnlogout {
+    background-color: var(--second-color);
+    letter-spacing: 1.5px;
+    transition: ease 0.3s;
+}
+
+.btnlogout:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.path {
+    background-color: var(--second-color);
+    height: 1.6px;
+}

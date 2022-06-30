@@ -1,0 +1,73 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+:root {
+    --primary-color: #a0938c;
+    --second-color: #E5E1DF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.15;
+}
+
+body {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background-color: rgba($color: #fff, $alpha: 0);
+    border: none;
+}
+
+input {
+    border-color: var(--second-color);
+    border-style: solid;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+th {
+    height: 44px;
+    padding: 0.5rem
+}
+
+td {
+    height: 120px;
+    padding: 0.5rem;
+    
+}

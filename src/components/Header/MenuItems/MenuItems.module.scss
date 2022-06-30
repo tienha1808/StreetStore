@@ -1,0 +1,42 @@
+.itemmenu {
+    position: relative;
+    font-weight: 600;
+}
+
+.itemmenu::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 110%;
+    height: 3px;
+    left: -5%;
+    opacity: 0;
+    border-radius: 15%;
+    background-color: var(--primary-color);
+}
+
+.itemmenu:hover::after {
+    animation: fadeuptodown 0.3s forwards;
+}
+
+
+@keyframes fadeuptodown {
+    from {
+        opacity: 0.3;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(3px);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .itemmenu {
+        font-size: 2.2rem;
+    }
+
+    .itemmenu:hover::after {
+        animation: none;
+    }
+}

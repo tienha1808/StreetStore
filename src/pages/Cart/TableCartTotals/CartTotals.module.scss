@@ -1,0 +1,35 @@
+.table {
+    background-color: var(--second-color);
+    width: 50%;
+    height: auto;
+}
+
+.rowTable {
+    border-bottom: solid 1px var(--primary-color);
+}
+
+.wrapCheck {
+    background-color: var(--primary-color);
+    transition: linear 0.3s;
+}
+
+.wrapCheck:hover {
+    background-color: #5d524c;
+}
+
+.checkout {
+    color: #333;
+    letter-spacing: 1.9px;
+    word-spacing: 2.4px;
+    transition: linear 0.3s;
+}
+
+.checkout:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .table {
+        width: 100%;
+    }
+}
